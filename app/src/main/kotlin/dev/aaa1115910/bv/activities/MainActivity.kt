@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             val scope = rememberCoroutineScope()
-            var isMainlandChina by remember { mutableStateOf(false) }
+            
 
             LaunchedEffect(Unit) {
                 scope.launch(Dispatchers.Default) {
@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
             }
 
             BVTheme {
-                if (isMainlandChina) RegionBlockScreen() else HomeScreen()
+                HomeScreen()
             }
         }
     }

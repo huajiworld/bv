@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
 
             LaunchedEffect(Unit) {
                 scope.launch(Dispatchers.Default) {
-                    isMainlandChina = NetworkUtil.isMainlandChina()
+                    
                     keepSplashScreen = false
                 }
             }

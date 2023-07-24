@@ -4,11 +4,11 @@ on:
 
   push:
 
-    branches: [ "develop" ]
+    branches: [ "1" ]
 
   pull_request:
 
-    branches: [ "develop" ]
+    branches: [ "1" ]
 
 jobs:
 

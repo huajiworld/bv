@@ -215,4 +215,5 @@ dependencies {
 
 tasks.withType<Test> {
     useJUnitPlatform()
+    options.encoding = "UTF-8"
 }

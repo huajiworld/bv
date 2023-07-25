@@ -46,4 +46,4 @@ jobs:
 
       with:
 
-        path: ./app/build/outputs/apk/release/*.apk
+        path: ./app/build/outputs/apk/default/release/*.apk
